@@ -11750,14 +11750,16 @@ html {
 /* Service Box Styles */
 .service-box {
   background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 80%);
+  background: linear-gradient(135deg, #7f8aff00 0%, #7f8aff00 80%);
   border-radius: 10px;
+  text-decoration-color: #0e1775;
+  font-weight: 300;
   transition: transform 0.3s ease, background 0.3s ease;
   box-shadow: 0 4px 8px rgba(30, 48, 243, 0.3), 0 4px 8px rgba(226, 30, 128, 0.3);
 }
 
 .service-box:hover {
-  background: #3a3a4f;
+  background: #7f8aff00;
   transform: translateY(-10px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
@@ -11772,15 +11774,22 @@ html {
 
 /* Stats Box Styles */
 .stat-box {
-  padding: 15px;
-  background: #2c2c3b;
+  /* padding: 15px; */
+  /* background: #2c2c3b; */
   border-radius: 10px;
   transition: background 0.3s ease, transform 0.3s ease;
+  background: linear-gradient(135deg, #7f8aff00 0%, #7f8aff00 80%);
+  border-radius: 10px;
+  text-decoration-color: #0e1775;
+  font-weight: 300;
+  transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0 4px 8px rgba(30, 48, 243, 0.3), 0 4px 8px rgba(226, 30, 128, 0.3);
 }
 
 .stat-box:hover {
-  background: #3a3a4f;
+  background: #7f8aff00;
   transform: scale(1.05);
+  
 }
 
 /* General Typography */
@@ -12031,7 +12040,7 @@ p {
 
 .header {
   position: relative;
-  height: 60vh;
+  height: 25vh;
   min-height: 400px;
   max-width: 1200px; 
   margin: 0 auto; 
@@ -12040,7 +12049,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   color: #fff;
   border-radius: 10px; 
 }
