@@ -12181,3 +12181,73 @@ p {
   padding: 1rem;
   background: #fcbec6;
 }
+
+/*--------------------------------------------------------------
+# Scroll Top Button
+--------------------------------------------------------------*/
+
+#chat-options {
+  position: fixed;
+  bottom: 75px;
+  left: 30px;
+}
+#chat-btn {
+  position: fixed;
+  bottom: 24px;
+  left: 28px;
+}
+#chat-icon,
+#chat-options a i,
+#back-to-top a i {
+  font-size: 24px;
+}
+@media (max-width: 576px) {
+  #chat-icon,
+  #chat-options a i,
+  #back-to-top a i {
+    font-size: 18px;
+  }
+}
+
+  .hover-primary:hover {
+      color: #00bcd4 !important;
+      text-decoration: underline;
+  }
+
+  /* Hover Effect for Social Icons */
+  .social-icon:hover {
+      color: #00bcd4 !important;
+  }
+
+  /* Scroll Top Button Hover Effect */
+  #scroll-top:hover {
+      background-color: #6c757d !important;
+  }
+
+
+/* Styling for the Back to Top button */
+#back-to-top {
+  z-index: 1000; /* Ensures it stays above other elements */
+  transition: opacity 0.3s ease-in-out;
+}
+
+#back-to-top a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  /* border-radius: 50%; */
+}
+
+/* Hover effect */
+#back-to-top a:hover {
+  transform: scale(1.1);
+}
+
+
+@keyframes slide-animation {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
