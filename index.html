@@ -19,8 +19,11 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
+            
     </head>
+    <div id="main-content">
+        <!-- Default homepage content goes here -->
+    
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
@@ -152,46 +155,55 @@
                     
             </section>
 
-        <!-- Latest Works Section -->
-        <section class="latest-works">
-            <div class="container">
-                <h2 class="fw-bolder mb-3"><span class="text-gradient d-inline">Latest Projects</span></h2>
-                <hr class="mx-auto section-divider">
-                <p class="section-subtitle">Showcasing some of my recent projects that highlight creativity, functionality, and innovation.</p>
-                
-                <div class="works-grid">
-                    <!-- Work Item 1 -->
-                    <div class="work-item">
-                        <img src="assets/0000.png" alt="Project 1" class="work-image" style="height: 350px;">
-                        <div class="work">
-                            <h3 class="work-title" style="font-size: 28px;">Church Management System <i class="baseline-system_update_alt"></i></h3>
-                            <p class="work-description">A responsive and modern church management system.</p>
-                            <a href="https://sekucu.org/" class="work-link" style="font-size: 14px;">View Project</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Work Item 2 -->
-                    <div class="work-item">
-                        <img src="assets/alhpa 2.jpg" alt="Project 2" class="work-image" style="height: 350px;">
-                        <div class="work">
-                            <h3 class="work-title" style="font-size: 28px;">Graphic Designs</h3>
-                            <p class="work-description">A personal portfolio for showcasing my skills and works.</p>
-                            <a href="https://www.behance.net/marvinmawira" class="work-link" style="font-size: 14px;">View Project</a>
-                        </div>
-                    </div>
+<!-- Latest Works Section -->
+<section class="latest-works" style="padding: 60px 0;">
+    <div class="container">
+        <h2 class="fw-bolder"><span class="text-gradient d-inline">Latest Projects</span></h2>
+        <hr class="mx-auto" style="width: 60px; height: 3px; background-color: #ff6600; border: none;">
+        <p class="text-center mb-5" style="color: #555; font-size: 16px; max-width: 600px; margin: auto;">
+            Showcasing some of my recent projects that highlight creativity, functionality, and innovation.
+        </p>
 
-                    <!-- Work Item 3 -->
-                    <div class="work-item">
-                        <img src="assets/service.png" alt="Project 3" class="work-image" style="height: 350px;">
-                        <div class="work">
-                            <h3 class="work-title" style="font-size: 28px;">Morix Borehole & Solar</h3>
-                            <p class="work-description">Solution for managing borehole & solar operations.</p>
-                            <a href="https://morix.co.ke/" class="work-link" style="font-size: 14px;">View Project</a>
-                        </div>
+        <div class="row g-4">
+            <!-- Work Item 1 -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm" style="border-radius: 12px; overflow: hidden;">
+                    <img src="assets/0000.png" alt="Project 1" class="card-img-top" style="height: 220px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h3 class="card-title" style="font-size: 20px; color: #040191;">Church Management System</h3>
+                        <p class="card-text" style="font-size: 14px; color: #666;">A responsive and modern church management system.</p>
+                        <a href="https://sekucu.org/" class="btn btn-gradient px-2 py-1 text-white font-bold" target="_blank" style="border-radius: 8px;">View Project</a>
                     </div>
                 </div>
             </div>
-        </section>
+
+            <!-- Work Item 2 -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm" style="border-radius: 12px; overflow: hidden;">
+                    <img src="assets/alhpa 2.jpg" alt="Project 2" class="card-img-top" style="height: 220px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h3 class="card-title" style="font-size: 20px; color: #040191;">Graphic Designs</h3>
+                        <p class="card-text" style="font-size: 14px; color: #666;">A personal portfolio for showcasing my skills and works.</p>
+                        <a href="https://www.behance.net/marvinmawira" class="btn btn-gradient px-2 py-1 text-white font-bold" target="_blank" style="border-radius: 8px;">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Item 3 -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm" style="border-radius: 12px; overflow: hidden;">
+                    <img src="assets/service.png" alt="Project 3" class="card-img-top" style="height: 220px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h3 class="card-title" style="font-size: 20px; color: #040191;">Morix Borehole & Solar</h3>
+                        <p class="card-text" style="font-size: 14px; color: #666;">Solution for managing borehole & solar operations.</p>
+                        <a href="https://morix.co.ke/" class="btn btn-gradient px-2 py-1 text-white font-bold" target="_blank" style="border-radius: 8px;">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Latest Works Section -->
 <section class="py-5" style="overflow: hidden; position: relative;">
@@ -551,4 +563,6 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
+</div>
+
 </html>
