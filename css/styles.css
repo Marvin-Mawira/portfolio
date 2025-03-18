@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
@@ -12037,27 +12038,6 @@ p {
   transform: scale(1.2);
 }
 
-
-.header {
-  position: relative;
-  height: 25vh;
-  min-height: 400px;
-  max-width: 1200px; 
-  margin: 0 auto; 
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/sekucu.png);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/2.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  color: #fff;
-  border-radius: 10px; 
-}
-
-.header .container {
-  position: relative;
-  height: 100%;
-}
 .header .header-mono {
   font-family: 'Poppins', sans-serif; /* Use Poppins font for bold and catchy look */
   font-weight: 900;

@@ -41,61 +41,92 @@
                     
                 </div>
             </nav>
-            <section class="header">
-                <div class="container">
-                  <div class="header-content">
-                    <h4 class="header-subtitle" >Hi, I'm</h4>
-                    <h1 class="display-3 fw-bolder mb-3"><span class="text-gradient d-inline">Marvin Mawira</span></h1>
-                    <h6 class="header-mono">
-                      <span id="typed-text"></span>
-                    </h6>
-                    <div>
-                        <a href="#" class="btn btn-danger static-button">Welcome.. 😊</a>
-                    </div>
-                  </div>
+
+            <!-- Hero Section -->
+<section id="hero" class="hero section" style="padding: 80px 0; position: relative; overflow: hidden;">
+    <div class="container" style="max-width: 1200px;" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center">
+            <!-- Left Content -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <h2 style="font-size: 3.5rem; font-weight: 700; line-height: 1.2; margin-bottom: 1.5rem;">
+                      <h2 class="header-mono"  style="
+                        font-size: 3.5rem; font-weight: 700; line-height: 1.2; margin-bottom: 1.5rem;
+                        font-weight: 900;
+                        color: #e21e80;
+                        border-right: 3px solid #dc3545;
+                        font-size: calc(14px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
+                        font-family: 'Poppins', sans-serif;
+                        animation: blink 0.7s step-end infinite;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        ">
+                        <span id="typed-text"></span>
+                      </h6>
+                      <span class="text-gradient d-inline">Who am I?</span>
+                    </h2>
+                <p class="lead" style="font-size: 1.05rem; margin-bottom: 2rem; color: rgba(0, 0, 0, 0.8);">
+                    Passionate IT Technician with deep faith, honesty, and diligence. Expert in solving complex problems
+                    with precision and efficiency, showcasing a keen eye for detail and adherence to instructions.
+                    <br><br>
+                    My passion lies in creating impactful digital experiences across various platforms, combining technical expertise and creativity. <span class="fs-4">✨</span>
+
+                </p>
+                <div class="d-flex gap-3" data-aos="fade-up" data-aos-delay="300" style="margin-bottom: 3rem;">
+                    <a href="projects.html" class="btn btn-primary" 
+                        style="padding: 0.8rem 2rem; font-size: 1rem; font-weight: 500; border-radius: 50px; background-color: #ff6600; border-color: #ff6600; color: #fff; transition: all 0.3s ease;">
+                        View My Work
+                    </a>
+                    <a href="contact.html" class="btn btn-outline"
+                        style="padding: 0.8rem 2rem; font-size: 1rem; font-weight: 500; border-radius: 50px; border: 2px solid rgba(255, 102, 0, 0.7); color: #ff6600; background: transparent; transition: all 0.3s ease;">
+                        Let's Connect
+                    </a>
                 </div>
-              </section>
-              
-            <header class="py-3">
-                <div class="container px-3 pb-3">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-10"> <!-- Makes the card centered and wider -->
-                            <div class="card shadow-lg border-0">
-                                <div class="card-body p-5">
-                                    <h2 class="fw-bolder text-center">
-                                        <span class="text-gradient d-inline">Who am I?</span>
-                                    </h2>
-                                    <hr class="mx-auto" style="width: 60px; height: 3px; background: linear-gradient(135deg, #1e30f3, #e21e80); border: none;">
-                                    
-                                    <p class="fs-6 text-center fw-semibold mb-4">
-                                        Passionate IT Technician with deep faith, honesty, and diligence. Expert in solving complex problems
-                                        with precision and efficiency, showcasing a keen eye for detail and adherence to instructions.
-                                    </p>
-                                    <p class="text-center">
-                                        <span class="badge bg-primary me-2">Goal-oriented</span>
-                                        <span class="badge bg-success me-2">Adaptable</span>
-                                        <span class="badge bg-warning text-dark">Continuous Learner</span>
-                                    </p>
-                
-                                    <div class="bg-light p-4 rounded shadow-sm">
-                                        <p class="fs-5 text-primary fw-bold text-center">
-                                            <i class="bi bi-code-slash"></i> About Me:
-                                        </p>
-                                        <p class="fs-6 text-center text-dark ">
-                                            I am a <span class="text-primary">Software Engineer</span>, <span class="text-success">Fullstack Developer</span>, 
-                                            <span class="text-danger">Graphic Designer</span>, <span class="text-warning">Video Editor</span>, and <span class="text-info">Photographer</span>.
-                                        </p>
-                                        <p class="text-muted text-center">
-                                            My passion lies in creating impactful digital experiences across various platforms, combining technical expertise and creativity. <span class="fs-4">✨</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+
+
+            </div>
+
+            <!-- Right Image -->
+            <div class="col-lg-6">
+                <div class="position-relative" style="padding: 2rem;">
+                    <img src="assets/morix.jpg" alt="Portfolio Hero Image" 
+                        class="img-fluid" data-aos="zoom-out" data-aos-delay="300"
+                        style="position: relative; z-index: 2; border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
+                    
+                    <!-- Morphing Background Shapes -->
+                    <div style="position: absolute; width: 300px; height: 300px; background-color: rgba(255, 102, 0, 0.15); 
+                        top: -20px; right: -20px; border-radius: 50%; z-index: 1; animation: morphShape 15s linear infinite;">
+                    </div>
+                    <div style="position: absolute; width: 200px; height: 200px; background-color: rgba(0, 0, 0, 0.1); 
+                        bottom: -20px; left: -20px; border-radius: 50%; z-index: 1; animation: morphShape 20s linear infinite reverse;">
                     </div>
                 </div>
-                
-            </header>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Keyframe Animations -->
+<style>
+@keyframes morphShape {
+    0% { border-radius: 30% 70% 70% 30%/30% 30% 70% 70%; }
+    25% { border-radius: 58% 42% 75% 25%/76% 46% 54% 24%; }
+    50% { border-radius: 50% 50% 33% 67%/55% 27% 73% 45%; }
+    75% { border-radius: 33% 67% 58% 42%/63% 68% 32% 37%; }
+    100% { border-radius: 30% 70% 70% 30%/30% 30% 70% 70%; }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    #hero { text-align: center; padding: 60px 0; }
+    #hero .d-flex { justify-content: center; flex-wrap: wrap; }
+    #hero .text-center { flex: 1; min-width: 100px; }
+}
+</style>
+
+
+
             <!-- Modern About Section -->
             <section class="text-light py-5 what-i-do-section">
                 <div class="container">
@@ -155,6 +186,7 @@
                     
             </section>
 
+            
 <!-- Latest Works Section -->
 <section class="latest-works" style="padding: 60px 0;">
     <div class="container">
@@ -468,6 +500,93 @@
     </div>
 </section>
 
+<!-- Resume Section -->
+<section id="resume" class="resume section" style="padding: 80px 0; background-color: #f9f9f9; position: relative;">
+    
+    <!-- Section Title -->
+    <div class="container text-center" data-aos="fade-up">
+        <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">Journey</h2>
+        <div style="width: 100px; height: 5px; background-color: #ff6600; margin: 0 auto 1.5rem;"></div>
+        <p style="max-width: 600px; margin: 0 auto; color: #555;">
+            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+        </p>
+    </div>
+    
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="resume-wrapper position-relative">
+                    
+                    <!-- Vertical Line -->
+                    <div class="timeline-line" style="
+                        position: absolute;
+                        left: 50%;
+                        top: 0;
+                        bottom: 0;
+                        width: 2px;
+                        background: #ff6600;
+                        transform: translateX(-50%);
+                    "></div>
+
+                    <!-- Work Experience -->
+                    <div class="resume-block" data-aos="fade-up">
+                        <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">Career Development</h2>
+                        
+                        <div class="timeline position-relative">
+                            
+                            <!-- Timeline Item -->
+                            <div class="timeline-item d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="200">
+                                <div class="timeline-left text-end pe-4" style="width: 45%; min-width: 150px;">
+                                    <h4 style="font-weight: 600; color: #333;">Career Development</h4>
+                                    <span style="color: #ff6600; font-size: 0.9rem;">Jun, 2023 - Current</span>
+                                </div>
+                                <div class="timeline-dot" style="
+                                    width: 15px; height: 15px; background: #ff6600; border-radius: 50%;
+                                    position: relative; left: -8px; z-index: 1;
+                                "></div>
+                                <div class="timeline-right ps-4" style="width: 45%;">
+                                    <h3 style="font-weight: 600; font-size: 1.3rem; margin-bottom: 0.5rem;">Project Lead</h3>
+                                    <p style="color: #666;">Leading projects with innovation and efficiency, managing teams to deliver outstanding results.</p>
+                                </div>
+                            </div>
+
+                            <!-- Additional Work Experience Items Here -->
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- Education -->
+                    <div class="resume-block" data-aos="fade-up" data-aos-delay="100">
+                        <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">Soft Skills</h2>
+                        
+                        <div class="timeline position-relative">
+                            
+                            <!-- Timeline Item -->
+                            <div class="timeline-item d-flex align-items-start mb-4" data-aos="fade-up" data-aos-delay="200">
+                                <div class="timeline-left text-end pe-4" style="width: 45%; min-width: 150px;">
+                                    <h4 style="font-weight: 600; color: #333;">Vestibulum University</h4>
+                                    <span style="color: #ff6600; font-size: 0.9rem;">2017-2019</span>
+                                </div>
+                                <div class="timeline-dot" style="
+                                    width: 15px; height: 15px; background: #ff6600; border-radius: 50%;
+                                    position: relative; left: -8px; z-index: 1;
+                                "></div>
+                                <div class="timeline-right ps-4" style="width: 45%;">
+                                    <h3 style="font-weight: 600; font-size: 1.3rem; margin-bottom: 0.5rem;">Diploma in Consequat</h3>
+                                    <p style="color: #666;">Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus maecenas tempus.</p>
+                                </div>
+                            </div>
+
+                            <!-- Additional Education Items Here -->
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <!-- Contact Section --> 
